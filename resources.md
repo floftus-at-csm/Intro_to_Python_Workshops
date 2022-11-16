@@ -46,6 +46,7 @@
 * Tensorflow
 * Scikit-Learn
 * Pytorch
+* [list of ML models for generative art](https://pharmapsychotic.com/tools.html#sec-5411) 
 
 ### Audio
 * [PyDub](https://github.com/jiaaro/pydub) - an easier package for working with audio in python
