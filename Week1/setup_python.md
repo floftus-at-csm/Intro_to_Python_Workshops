@@ -47,3 +47,33 @@ this method installs a package into your home directory
 2. add some content to the script ```print("is this on")```
 3. open up a terminal
 4. run ```python3 <scriptname.py>```
+
+
+## Importing a Module
+To import a whole module use
+
+``` 
+import <module name>
+``` 
+e.g. 
+```
+import numpy
+```
+
+To then use that module use
+```
+modulename.functionname()
+```
+
+e.g. 
+``` import Pillow
+image1 = Pillow.Image("path_to_image.png")
+```
+
+
+To import a particular function use
+
+```
+from <module name> import <function name>
+```
+
