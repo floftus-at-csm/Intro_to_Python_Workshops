@@ -39,3 +39,11 @@ this method installs a package into your home directory
 1. Open a terminal
 2. type ```pip3 --version``` to ensure pip is installed
 3. use the command ```pip3 install <package_name>``` (e.g. ```pip3 install Pillow```)
+
+
+## Running a Script
+
+1. create a python script (e.g. tester.py)
+2. add some content to the script ```print("is this on")```
+3. open up a terminal
+4. run ```python3 <scriptname.py>```
