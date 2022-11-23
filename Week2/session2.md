@@ -269,7 +269,7 @@ from pathlib import Path
 
 input_folder = Path("Week2/input_images/")
 
-file_to_open = data_folder / "image.png"
+file_to_open = input_folder / "image.png"
 ```
 or
 ```
