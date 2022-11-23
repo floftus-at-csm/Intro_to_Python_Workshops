@@ -4,7 +4,7 @@
 * Terminal Commands
 * Variables
 * Python Pillow
-* Auto-save on Window Change
+
 
 ## Visual Studio Code
 ### At Startup
@@ -35,6 +35,8 @@ e.g. README.md
 * Pylance
 
 * Jupyter
+
+* Auto-save on Window Change
 
 <br>
 <hr>
