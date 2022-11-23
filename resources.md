@@ -60,3 +60,18 @@
 ### Web 3
 * [web3](https://github.com/ethereum/web3.py)
 * [Ethereum Documentation](https://ethereum.org/en/developers/docs/programming-languages/python/)
+
+
+## VSCode Extensions
+
+* Material Icon Theme
+
+* Python Core Extension
+
+* Python Indent
+
+* Pylance
+
+* Jupyter
+
+* Auto-save on Window Change

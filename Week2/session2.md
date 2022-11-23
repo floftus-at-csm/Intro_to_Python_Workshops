@@ -4,6 +4,7 @@
 * Terminal Commands
 * Variables
 * Python Pillow
+* Auto-save on Window Change
 
 ## Visual Studio Code
 ### At Startup
@@ -23,7 +24,20 @@ Markdown files are used to share information with other coders. They are labelle
 
 e.g. README.md
 
+## VSCode Extensions
+
+* Material Icon Theme
+
+* Python Core Extension
+
+* Python Indent
+
+* Pylance
+
+* Jupyter
+
 <br>
+<hr>
 
 ## Command Line Notes
 
@@ -143,6 +157,7 @@ $ git push -u origin felixs_branch
 
 
 
+<hr>
 
 ## Python Scripts
 
