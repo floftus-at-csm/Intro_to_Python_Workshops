@@ -1,21 +1,30 @@
 ```
-           /^\/^\
-         _|__|  O|
-\/     /~     \_/ \
- \____|__________/  \
-        \_______      \
-                `\     \                 \
-                  |     |                  \
-                 /      /                    \
-                /     /                       \\
-              /      /                         \ \
-             /     /                            \  \
-           /     /             _----_            \   \
-          /     /           _-~      ~-_         |   |
-         (      (        _-~    _--_    ~-_     _/   |
-          \      ~-____-~    _-~    ~-_    ~-_-~    /
-            ~-_           _-~          ~-_       _-~
-               ~--______-~                ~-___-~
+                          :                      :M
+                         XMX                   .HMM>
+                         MMMM.                dMMMM>
+                        'MMMMMX     .....   dMMMMMMX
+                        XMMMMMMMnMMMMMMMMMMMMMMMMMMM
+                       :MMMMMMMMMMMMMMMMMMMMMMMMMMMM>
+                       XMMMMM!"    "MMMMMM"`  `"MMMMM
+                       MMMM#         4MMf        `MMMX
+                      XMMM            MX          'MMM:
+                     'MMM~            '>            MMM
+                     MMMf       .     '>            `MMX
+                    MMMM>     :MMM    '>   :MMM      MMMX
+                   XMMMM      MMMM>   '>   XMMMX     MMMMk
+                  MMMMMM>     MMMM~   'k   MMMMX     MMMMMh
+                 MMMMMMMX     XMMM    XX   ?MMM     XMMMMMMM
+                 MMMMMMMMk     ^`    X 'h    `     :MM##MMM~
+                  ?MM>  ^?M.       .!    %.      .HM"   MM
+                 .?M      '"%+++!".nMMMMn "%++!*" %.. 'M..
+                  `?M>+%L         <MMMMMMMM>       :   XM"
+                    'X   %        XMMMMMMMM>      X   'f
+                      X   `M.      ?MMMMMM~    .HM   :`
+                       %.  `MMMx.          .xHMMM   X
+                        `X  `MMMMMMMMMMMMMMMMMMM  :f
+                           .M. 4MM     "     MM" xM
+                                `%x.......x"`.H
+                                 hx.......x
 ``` 
 # Session 3
 ## recap
@@ -77,6 +86,31 @@ print("the length of the array is: ", arr)
 Note, currently we will get any files in this directory (python files, images, videos etc. etc.). Often we will only want to look for one type of files (e.g. just images). There is a quick tutorial about getting only files of one type [HERE](https://www.geeksforgeeks.org/how-to-iterate-through-images-in-a-folder-python/) 
 
 
+```
+	
+             __,aaPPPPPPPPaa,__
+         ,adP"""'          `""Yb,_
+      ,adP'                     `"Yb,
+    ,dP'     ,aadPP"""""YYba,_     `"Y,
+   ,P'    ,aP"'            `""Ya,     "Y,
+  ,P'    aP'     _________     `"Ya    `Yb,
+ ,P'    d"    ,adP""""""""Yba,    `Y,    "Y,
+,d'   ,d'   ,dP"            `Yb,   `Y,    `Y,
+d'   ,d'   ,d'    ,dP""Yb,    `Y,   `Y,    `b
+8    d'    d'   ,d"      "b,   `Y,   `8,    Y,
+8    8     8    d'    _   `Y,   `8    `8    `b
+8    8     8    8     8    `8    8     8     8
+8    Y,    Y,   `b, ,aP     P    8    ,P     8
+I,   `Y,   `Ya    """"     d'   ,P    d"    ,P
+`Y,   `8,    `Ya         ,8"   ,P'   ,P'    d'
+ `Y,   `Ya,    `Ya,,__,,d"'   ,P'   ,P"    ,P
+  `Y,    `Ya,     `""""'     ,P'   ,d"    ,P'
+   `Yb,    `"Ya,_          ,d"    ,P'    ,P'
+     `Yb,      ""YbaaaaaadP"     ,P'    ,P'
+       `Yba,                   ,d'    ,dP'
+          `"Yba,__       __,adP"     dP"
+              `"""""""""""""'
+```
 
 ## Loops
 <b>Loops are used to repeat actions</b>. This can be useful to do an action lots of times, to acces all the values in an array, or have a script run in real time responding to some input data (e.g. a video stream or a stream of data from a sensor)
@@ -200,7 +234,28 @@ while True:
         break;
 ```
 
-
+```	
+             ..                                       ..
+             []                                       []
+           .:[]:_          ^^                       ,:[]:.
+         .: :[]: :-.                             ,-: :[]: :.
+       .: : :[]: : :`._                       ,.': : :[]: : :.
+     .: : : :[]: : : : :-._               _,-: : : : :[]: : : :.
+ _..: : : : :[]: : : : : : :-._________.-: : : : : : :[]: : : : :-._
+ _:_:_:_:_:_:[]:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:[]:_:_:_:_:_:_
+ !!!!!!!!!!!![]!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![]!!!!!!!!!!!!!
+ ^^^^^^^^^^^^[]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[]^^^^^^^^^^^^^
+             []                                       []
+             []                                       []
+             []                                       []
+  ~~^-~^_~^~/  \~^-~^~_~^-~_^~-^~_^~~-^~_~^~-~_~-^~_^/  \~^-~_~^-~~-
+ ~ _~~- ~^-^~-^~~- ^~_^-^~~_ -~^_ -~_-~~^- _~~_~-^_ ~^-^~~-_^-~ ~^
+    ~ ^- _~~_-  ~~ _ ~  ^~  - ~~^ _ -  ^~-  ~ _  ~~^  - ~_   - ~^_~
+      ~-  ^_  ~^ -  ^~ _ - ~^~ _   _~^~-  _ ~~^ - _ ~ - _ ~~^ -
+         ~^ -_ ~^^ -_ ~ _ - _ ~^~-  _~ -_   ~- _ ~^ _ -  ~ ^-
+             ~^~ - _ ^ - ~~~ _ - _ ~-^ ~ __- ~_ - ~  ~^_-
+                 ~ ~- ^~ -  ~^ -  ~ ^~ - ~~  ^~ - ~
+```
 ## Functions
 Functions are is a set of code that perform a specific function. They allow you to re-use code easily. Good functions are <i>generalised</i>
 ### Writing functions
@@ -240,10 +295,22 @@ print(combo_word)
 ```
 
 
-* same function as before
-* add in a new process
-* return something
-
-
-
-web cam
+```
+                 ¶¶¶¶¶¶¶¶¶¶¶¶ 
+                 ¶¶            ¶¶ 
+   ¶¶¶¶¶        ¶¶                ¶¶ 
+   ¶     ¶     ¶¶      ¶¶    ¶¶     ¶¶ 
+    ¶     ¶    ¶¶       ¶¶    ¶¶      ¶¶ 
+     ¶    ¶   ¶¶        ¶¶    ¶¶      ¶¶ 
+      ¶   ¶   ¶                         ¶¶ 
+    ¶¶¶¶¶¶¶¶¶¶¶¶                         ¶¶ 
+   ¶            ¶    ¶¶            ¶¶    ¶¶ 
+  ¶¶            ¶    ¶¶            ¶¶    ¶¶ 
+ ¶¶   ¶¶¶¶¶¶¶¶¶¶¶      ¶¶        ¶¶     ¶¶ 
+ ¶               ¶       ¶¶¶¶¶¶¶       ¶¶ 
+ ¶¶              ¶                    ¶¶ 
+  ¶   ¶¶¶¶¶¶¶¶¶¶¶¶                   ¶¶ 
+  ¶¶           ¶  ¶¶                ¶¶ 
+  ¶¶¶¶¶¶¶¶¶¶¶¶    ¶¶            ¶¶
+                  ¶¶¶¶¶¶¶¶¶¶¶
+```
