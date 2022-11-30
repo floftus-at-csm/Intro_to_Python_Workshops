@@ -1,3 +1,23 @@
+```
+           /^\/^\
+         _|__|  O|
+\/     /~     \_/ \
+ \____|__________/  \
+        \_______      \
+                `\     \                 \
+                  |     |                  \
+                 /      /                    \
+                /     /                       \\
+              /      /                         \ \
+             /     /                            \  \
+           /     /             _----_            \   \
+          /     /           _-~      ~-_         |   |
+         (      (        _-~    _--_    ~-_     _/   |
+          \      ~-____-~    _-~    ~-_    ~-_-~    /
+            ~-_           _-~          ~-_       _-~
+               ~--______-~                ~-___-~
+``` 
+# Session 3
 ## recap
 
 ## Data Structures
@@ -59,7 +79,7 @@ Note, currently we will get any files in this directory (python files, images, v
 
 
 ## Loops
-<b>Loops are used to repeat actions</b>. This can be useful to do an action lots of times, or have a script run in real time, responding to some input data (e.g. a video stream or a stream of data from a sensor)
+<b>Loops are used to repeat actions</b>. This can be useful to do an action lots of times, to acces all the values in an array, or have a script run in real time responding to some input data (e.g. a video stream or a stream of data from a sensor)
 
 
 There are two main ways to create loops: <b>for loops</b> and <b>while loops</b>. Generally we'll use a <b>for loop to do a process a specific number of times</b> and a <b>while loop to leave a process running for an indefinite amount of time</b> (though we need to be careful to always have an off 'button' for a while loop)
@@ -72,12 +92,16 @@ for i in range(0, 10):
 This will print: ``` 0, 1, 2, ...```
 
 This says to 
-1. start i at 0 
+1. create a variable i and set i to be equal to 0 
 2. do whatever is inside the loop (here it is just a print command)
 3. increase i by 1 
 4. do whatever is inside the loop
 5. continue this loop until i is 10 
 6. when i is 10 we do not go into the loop
+
+Note that <i>what is inside a loop must be indented</i>. This should happen automatically after you write a colon after writing 'for. If it does not, <i>you can indent using the tab key </i>.
+
+To indent a whole group of text, highlight over it and then press tab.
 
 This loop uses the <b>range</b> method. But there are a few others ways we can do for loops in python. 
 
@@ -177,7 +201,45 @@ while True:
 ```
 
 
-## functions
+## Functions
+Functions are is a set of code that perform a specific function. They allow you to re-use code easily. Good functions are <i>generalised</i>
+### Writing functions
+To create a function you need to first <i>define</i> the function.
+Note that in python, what goes inside the function must be <i>indented</i>
+e.g.
+```
+def my_first_function():
+    print("lets start functional programming")
+```
+To then use the function we <i>call</i> the function.
+We could call the above function like
+```
+my_first_function()
+```
+
+### Inputs and Outputs
+Often we want a function to have a set of inputs and then to return us an output. The inputs are often called <i>arguments</i>, the output are what we <i>return</i>.
+
+<i>If the function returns an output then we need to store that output somewhere</i>. We store the output in a variable.
+
+
+e.g.
+```
+# defining the function
+def combine_words(word1, word2):
+    if type(word1) not str:
+        word1 = str(word1)
+    if type(word2) not str:
+        word2 = str(word2)
+    return word1 + " " + word2
+
+
+# calling the function
+combo_word = combine_words("hello", "world")
+print(combo_word)
+```
+
+
 * same function as before
 * add in a new process
 * return something
