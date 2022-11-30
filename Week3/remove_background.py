@@ -13,7 +13,7 @@ while True:
     ret, frame = cap.read()
     if ret == True:
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-        lower_blue = np.array([0, 0, 120])
+        lower_blue = np.array([0, 0, 100])
         upper_blue = np.array([180, 38, 255])
         mask = cv2.inRange(hsv, lower_blue, upper_blue)
         result = cv2.bitwise_and(frame, frame, mask=mask)
