@@ -233,6 +233,7 @@ while True:
     if (keyboard == 'q' || keyboard == 27)
         break;
 ```
+<hr>
 
 ```	
              ..                                       ..
