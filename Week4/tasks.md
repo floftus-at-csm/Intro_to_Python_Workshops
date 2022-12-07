@@ -56,3 +56,12 @@ They take an input of some words (a string) and write them to the console.
 ```
 ## Task 4: Algorithm Planning
 Now we have some of the framework of the game settled, lets plan out the algorithm.
+
+For either the text-based cooking game, or a youtube guesser game:
+* plan out the algorithm for the game using pen and paper (notes on your computer or a design tool like miro is fine)
+* create a new folder and write out the framework of your algorithm in terms of the states needed
+* now write out what functions will be needed (start without defining the function)
+* now define the functions, and write out what the inputs and outputs will be. Remember, the inputs go inside the opening brackets like ```def myFunction(input1, input2):``` and the outputs are put after a return tag like: ```return output1, output2```. We then use our function like: ``` currentOutput1, currentOutput2 = myFunction(input, another_input)```
+* now consider what input variables and libraries you'll need
+* now try to flesh out each individual function
+
