@@ -101,6 +101,7 @@ while True:
         break
 ```
 
+### Program Structure
 Lots of your program can be designed without writing any code. 
 I like to start with pen and paper. 
 * I first create a loose diagram of what will happen in the script
@@ -111,6 +112,19 @@ I like to start with pen and paper.
     * Do we need any conditional statements in this state?
     * do we need any functions for this state?
     * what are the outputs of this state?
+* Now I know what states I have I can start to plan out what ingredients I need. These will be:
+    * libraries
+    * input variables (e.g. API Keys)
 * I then move to my IDE (visual studio code) and write up this diagram in pseudo code. Once this is written up, the whole structure of my program is planned out 
-* 
+* Now I should also have a list of the functions I need for my code with an idea  of their input and output. 
+    * the next thing I do is to try to work out how to write these key functions
+
+### Quick task
+Have a look at the recipe below and try to answer these questions about the recipe:
+* What are the states of this recipe?
+* What are the input variables to each state?
+* What are the output variables of each state?
+* What are the inputs to the algorithm?
+![Image of Dan Dan Noodles Recipe](content/dandan.jpg "Dan Dan")
+
 
