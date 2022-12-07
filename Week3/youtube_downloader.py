@@ -8,6 +8,7 @@ def download_videos_simple(url, output_loc, max="100M"):
     'format': 'best',
     'max': '100M',
     'outtmpl': out,
+    '--download-sections' :"*10:15-inf",
     }
     with YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
